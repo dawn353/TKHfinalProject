@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NotePad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  
+
+    .note {
+    background-color: #2196F3;
+    border-left: 6px solid #2196F3;
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    }
+  
+  </style>
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Note Pad</h1>      
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                         
+</button>
+  
+      <a class="navbar-brand" id="newn" href="#">New Note</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">All Notes</a></li>
+        <li><a href="#">Catgories</a></li>
+        <li><a href="#">Due Soon</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+            
+<!--Note 1-->
+      <div class="col-sm-4"> 
+         <div class="panel panel-info">
+           <div class="panel-heading">Note 1</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+        <!-- footer-->
+        <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" name="catagory"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (date and time):
+          <input type="datetime-local" name="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+   
+
+
+<!-- Note 2-->
+  <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">Note 2</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong> <BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+        
+        <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" id="catagory2"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (date and time):
+          <input type="datetime-local" id="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+
+
+
+
+
+
+
+<!--Note 3-->
+  <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">Note 3</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong> <BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+         <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" name="catagory"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (date and time):
+          <input type="datetime-local" name="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+
+
+
+
+    
+<!--Note 4-->
+      <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">Note 4</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong> <BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+       <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" name="catagory"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (date and time):
+          <input type="datetime-local" name="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+
+
+
+<!--Note 5-->
+      <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">Note 5</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong> <BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+       <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" name="catagory"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (date and time):
+          <input type="datetime-local" name="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+
+
+
+
+
+
+<!--Note 6-->
+      <div class="col-sm-4"> 
+      <div class="panel panel-info">
+        <div class="panel-heading">Note 6</div>
+           <div class="note">
+            <strong><BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 30px" rows="3" wrap="virtual" cols=48></TEXTAREA><BR></strong> <BR/><TEXTAREA style="WIDTH: 259px; HEIGHT: 182px" id="output" name="output" rows="9" wrap="virtual" cols=48> </TEXTAREA><BR></p>
+        </div>
+        <div class="panel-footer"><strong>Catagory:</strong><BR/><form>
+            <input type="text" name="catagory"><br>
+          </form> 
+        <BR><strong>Due:</strong><BR/><form action="/action_page.php">
+            (Date and Time):
+          <input type="datetime-local" name="dueBy">
+            </form> <BR/>
+             </div><BR>
+              </div>
+        </div>
+
+</div><br><br>
+
+<footer class="container-fluid text-center">
+
+
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
